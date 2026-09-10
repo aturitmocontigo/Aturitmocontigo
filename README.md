@@ -1,16 +1,17 @@
-# A tu ritmo, contigo — versión premium
+# A tu ritmo, contigo — experiencia interactiva
 
-Landing page comercial independiente del proyecto de donaciones.
+Landing page comercial. No revela las actividades del eBook; construye deseo y lleva a Hotmart.
 
-Objetivo:
-- vender el eBook sin regalar su contenido;
-- crear deseo y confianza;
-- presentar beneficios sin mostrar las 22 actividades;
-- llevar al usuario a Hotmart para la compra.
+Hotmart:
+https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F
 
-Enlaces:
-Hotmart: https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F
-Instagram: https://www.instagram.com/aturitmocontigo_?stkn=aGFtYTVjd3N6am5p
-Teléfono: +57 310 751 8812
+Instagram:
+https://www.instagram.com/aturitmocontigo_?stkn=aGFtYTVjd3N6am5p
 
-La portada del eBook se representa con CSS para que la web funcione sin imágenes externas. Si existe una portada oficial, se puede sustituir por ella sin modificar la estructura.
+Teléfono:
+310 751 8812
+
+Archivos:
+index.html
+style.css
+script.js
