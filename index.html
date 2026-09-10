@@ -1,156 +1,163 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A tu ritmo, contigo — una experiencia para descubrir, jugar y acompañar.">
-  <meta name="theme-color" content="#102A43">
-  <title>A tu ritmo, contigo</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="A tu ritmo, contigo — juego, conexión y acompañamiento para disfrutar cada etapa.">
+<meta name="theme-color" content="#0B2239">
+<title>A tu ritmo, contigo | Descubre el eBook</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="A tu ritmo, contigo">
-      <span class="brand-mark">✦</span>
-      <span>A TU RITMO,<br><b>CONTIGO</b></span>
-    </a>
-    <a class="header-cta" href="#comprar">Quiero el eBook</a>
-  </header>
+<div class="progress"></div>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <span class="eyebrow">22 actividades para descubrir juntos</span>
-        <h1>No se trata de estimular más.<br><em>Se trata de acompañar mejor.</em></h1>
-        <p>Una guía digital pensada para convertir momentos cotidianos en oportunidades de juego, conexión y descubrimiento.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#comprar">Quiero el eBook <span>→</span></a>
-          <a class="button button-ghost" href="#explorar">Explorar <span>↓</span></a>
-        </div>
-      </div>
-      <div class="hero-art" aria-label="Ilustración decorativa">
-        <div class="sun"></div>
-        <div class="cloud cloud-one"></div>
-        <div class="cloud cloud-two"></div>
-        <div class="book">
-          <div class="book-cover">
-            <small>A TU RITMO,</small>
-            <strong>CONTIGO</strong>
-            <span>Una experiencia para descubrir,<br>jugar y acompañar.</span>
-            <i>✦</i>
-          </div>
-        </div>
-        <div class="dino dino-one">🦕</div>
-        <div class="dino dino-two">🦖</div>
-        <div class="toy">✹</div>
-      </div>
-    </section>
+<header class="topbar">
+  <a class="logo" href="#inicio">
+    <span class="logo-star">✦</span>
+    <span><small>A TU RITMO,</small><b>CONTIGO</b></span>
+  </a>
+  <nav class="nav">
+    <a href="#descubre">Descubrir</a>
+    <a href="#dentro">Dentro del eBook</a>
+    <a href="#mamas">Experiencias</a>
+    <a href="#autora">Dalgis</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <a class="top-buy" href="#comprar">Quiero el eBook <span>↗</span></a>
+  <button class="menu" aria-label="Abrir menú">☰</button>
+</header>
 
-    <section class="explore" id="explorar">
-      <div class="section-heading">
-        <span class="eyebrow">Explora</span>
-        <h2>Hay mucho por descubrir.</h2>
-        <p>En lugar de llenar la pantalla de texto, toca, desliza y descubre.</p>
-      </div>
-
-      <div class="horizontal-cards">
-        <article class="feature-card active" data-title="Acompañar" data-text="Ideas sencillas para estar presente y convertir el juego cotidiano en un momento de conexión.">
-          <span>01</span><b>❤️</b><h3>Acompañar</h3><p>Más presencia, menos presión.</p>
-        </article>
-        <article class="feature-card" data-title="Jugar" data-text="Actividades fáciles de preparar que invitan a explorar, tocar, mirar, escuchar y disfrutar juntos.">
-          <span>02</span><b>🎲</b><h3>Jugar</h3><p>Aprender también puede sentirse como juego.</p>
-        </article>
-        <article class="feature-card" data-title="Descubrir" data-text="Propuestas organizadas para que puedas encontrar ideas adecuadas para cada etapa.">
-          <span>03</span><b>🔎</b><h3>Descubrir</h3><p>Pequeños momentos, grandes descubrimientos.</p>
-        </article>
-        <article class="feature-card" data-title="Conectar" data-text="Porque el objetivo no es hacer más cosas: es disfrutar mejor de las que ya haces.">
-          <span>04</span><b>✨</b><h3>Conectar</h3><p>El vínculo también es parte del aprendizaje.</p>
-        </article>
-      </div>
-
-      <div class="reveal-box" id="revealBox">
-        <strong>Acompañar</strong>
-        <p>Ideas sencillas para estar presente y convertir el juego cotidiano en un momento de conexión.</p>
-      </div>
-    </section>
-
-    <section class="discover">
-      <div class="section-heading">
-        <span class="eyebrow">Dentro del eBook</span>
-        <h2>Elige qué quieres conocer.</h2>
-      </div>
-      <div class="tabs">
-        <button class="tab active" data-tab="actividades">22 actividades</button>
-        <button class="tab" data-tab="edades">Por edades</button>
-        <button class="tab" data-tab="materiales">Materiales</button>
-        <button class="tab" data-tab="objetivos">Objetivos</button>
-        <button class="tab" data-tab="notas">Notas para mamá</button>
-      </div>
-      <div class="tab-panel" id="tabPanel">
-        <span class="panel-icon">🎈</span>
-        <h3>22 actividades</h3>
-        <p>Una selección de propuestas para explorar el juego y acompañar diferentes momentos del desarrollo.</p>
-      </div>
-    </section>
-
-    <section class="curious">
-      <div class="curious-dino">🦖</div>
-      <div>
-        <span class="eyebrow">¿Sabías que…?</span>
-        <h2 id="fact">El juego no necesita ser complicado para ser significativo.</h2>
-        <button class="button button-light" id="nextFact">Ver otro dato →</button>
-      </div>
-    </section>
-
-    <section class="peek">
-      <div class="peek-copy">
-        <span class="eyebrow">Una pequeña mirada</span>
-        <h2>Lo suficiente para querer descubrir el resto.</h2>
-        <p>El contenido completo vive dentro del eBook. Aquí solo abrimos una pequeña ventana.</p>
-        <a class="button button-primary" href="#comprar">Ver el eBook</a>
-      </div>
-      <div class="peek-stack">
-        <div class="page page-back">JUGAR<br><small>también es conectar</small></div>
-        <div class="page page-front">
-          <small>ACTIVIDAD</small>
-          <strong>Explorar<br>juntos</strong>
-          <span>Una propuesta sencilla<br>para compartir.</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="author">
-      <div class="author-avatar">DB</div>
-      <div>
-        <span class="eyebrow">Detrás de la idea</span>
-        <h2>Dalgis Bustos</h2>
-        <p>“A tu ritmo, contigo” nace desde una mirada cercana: acompañar a un hijo no significa hacerlo todo perfecto, sino encontrar maneras de estar, jugar y disfrutar juntos.</p>
-      </div>
-    </section>
-
-    <section class="purchase" id="comprar">
-      <div>
-        <span class="eyebrow">Tu siguiente momento juntos</span>
-        <h2>Descubre <em>A tu ritmo, contigo.</em></h2>
-        <p>Elige comenzar una experiencia pensada para acompañar con más conexión y menos presión.</p>
-      </div>
-      <!-- Reemplazar # por el enlace real de compra -->
-      <a class="button button-buy" href="#" onclick="alert('Aquí irá el enlace real de compra.'); return false;">QUIERO EL EBOOK <span>→</span></a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-brand">A TU RITMO, <b>CONTIGO</b></div>
-    <span>Creado por Dalgis Bustos</span>
-    <span>© 2026</span>
-  </footer>
-
-  <div class="mobile-buy">
-    <span>A tu ritmo, contigo</span>
-    <a href="#comprar">QUIERO EL EBOOK</a>
+<main id="inicio">
+<section class="hero">
+  <div class="hero-noise"></div>
+  <div class="hero-copy reveal">
+    <div class="pill"><i></i> Una guía para acompañar, jugar y conectar</div>
+    <h1>Tu bebé descubre el mundo.<br><em>Tú puedes descubrirlo con él.</em></h1>
+    <p class="lead">Una experiencia digital creada para convertir momentos cotidianos en momentos de conexión.</p>
+    <div class="hero-buttons">
+      <a class="btn primary" href="#comprar">QUIERO CONOCERLO <b>→</b></a>
+      <a class="btn text" href="#dentro">¿Qué trae? <b>↓</b></a>
+    </div>
+    <div class="trust-row"><span>✦ 22 actividades</span><span>✦ Por edades</span><span>✦ Materiales sencillos</span></div>
   </div>
 
-  <script src="script.js"></script>
+  <div class="hero-scene reveal">
+    <div class="orb"></div>
+    <div class="floating-note note1">¿Jugamos? 💛</div>
+    <div class="floating-note note2">Hoy descubrimos algo nuevo ✨</div>
+    <div class="book-shadow"></div>
+    <div class="book3d">
+      <div class="book-spine"></div>
+      <div class="book-cover">
+        <span class="cover-mini">UNA EXPERIENCIA PARA</span>
+        <strong>A TU RITMO,<br>CONTIGO</strong>
+        <div class="cover-doodle">✦</div>
+        <span class="cover-sub">descubrir · jugar · acompañar</span>
+      </div>
+      <div class="page-edge"></div>
+    </div>
+    <div class="dino dino-a">🦕</div>
+    <div class="dino dino-b">🦖</div>
+    <div class="rattle">✦</div>
+  </div>
+</section>
+
+<section class="ticker">
+  <div class="ticker-track">
+    <span>JUGAR <b>✦</b> CONECTAR <b>✦</b> DESCUBRIR <b>✦</b> ACOMPAÑAR <b>✦</b> JUGAR <b>✦</b> CONECTAR <b>✦</b> DESCUBRIR <b>✦</b> ACOMPAÑAR <b>✦</b></span>
+  </div>
+</section>
+
+<section class="discover" id="descubre">
+  <div class="section-top">
+    <div><span class="eyebrow">No es una lista. Es una experiencia.</span><h2>Empieza a descubrir.</h2></div>
+    <p>Hay información que no necesitas leer de golpe. Tócala. Explórala. Déjate llevar.</p>
+  </div>
+  <div class="discovery-grid">
+    <button class="discovery-card big" data-modal="actividad">
+      <span class="number">01</span><span class="emoji">🎈</span><h3>Una actividad puede cambiar el momento.</h3><p>Descubre cómo funcionan las propuestas.</p><b>Explorar →</b>
+    </button>
+    <button class="discovery-card" data-modal="edades"><span class="number">02</span><span class="emoji">👶</span><h3>¿Para qué edad?</h3><b>Ver etapas →</b></button>
+    <button class="discovery-card dark" data-modal="materiales"><span class="number">03</span><span class="emoji">🧸</span><h3>¿Necesito comprar materiales?</h3><b>Descubrir →</b></button>
+    <button class="discovery-card yellow" data-modal="objetivos"><span class="number">04</span><span class="emoji">✨</span><h3>¿Qué acompaña cada actividad?</h3><b>Ver objetivos →</b></button>
+  </div>
+</section>
+
+<section class="inside" id="dentro">
+  <div class="inside-visual">
+    <span class="peek-tag">UNA MIRADA ADENTRO</span>
+    <div class="page-stack">
+      <div class="inside-page back"><small>IDEAS PARA</small><strong>JUGAR<br>JUNTOS</strong></div>
+      <div class="inside-page front"><span class="mini-label">ACTIVIDAD</span><strong>Pequeños<br>exploradores</strong><p>Una propuesta sencilla para compartir y descubrir.</p><span class="dots">● ● ●</span></div>
+    </div>
+    <span class="stamp">22<br><small>ACTIVIDADES</small></span>
+  </div>
+  <div class="inside-copy">
+    <span class="eyebrow">Dentro del eBook</span><h2>Lo ves.<br><em>Te da curiosidad.</em></h2>
+    <p>No queremos mostrarte todo. Queremos mostrarte lo suficiente para que imagines los momentos que pueden crear juntos.</p>
+    <div class="chips">
+      <button class="chip active" data-inside="22 actividades">22 actividades</button>
+      <button class="chip" data-inside="Por edades">Por edades</button>
+      <button class="chip" data-inside="Materiales sencillos">Materiales sencillos</button>
+      <button class="chip" data-inside="Objetivos">Objetivos</button>
+      <button class="chip" data-inside="Notas para mamá">Notas para mamá</button>
+    </div>
+    <div class="chip-result"><span>✦</span><strong>22 actividades</strong><p>Ideas pensadas para acompañar distintos momentos.</p></div>
+    <a class="btn primary" href="#comprar">QUIERO VERLO COMPLETO →</a>
+  </div>
+</section>
+
+<section class="whatsapp" id="mamas">
+  <div class="whatsapp-head">
+    <div><span class="eyebrow">Lo que dicen ellas</span><h2>Como si te llegara un WhatsApp.</h2></div>
+    <span class="online"><i></i> mamás conectadas</span>
+  </div>
+  <div class="chat-window">
+    <div class="chat-top"><span class="avatar">A</span><div><b>Experiencias · A tu ritmo</b><small>en línea ahora</small></div><span>•••</span></div>
+    <div class="chat-body" id="chatBody">
+      <div class="day">HOY</div>
+      <div class="msg received">Me encantó que no necesito preparar mil cosas 😭💛<small>10:42</small></div>
+      <div class="msg sent">Eso buscaba… que jugar no se sintiera como otra tarea ✨<small>10:43 ✓✓</small></div>
+      <div class="msg received">Y mi bebé se quedó súper atento con una actividad 😍<small>10:44</small></div>
+      <div class="msg received">Ahora quiero probar la siguiente jajaja 🦖<small>10:45</small></div>
+    </div>
+    <div class="chat-input"><span>Escribe un mensaje</span><b>➤</b></div>
+  </div>
+  <button class="next-chat" id="nextChat">Ver otra experiencia <span>→</span></button>
+</section>
+
+<section class="facts">
+  <div class="fact-dino">🦖</div>
+  <div class="fact-content"><span class="eyebrow">Pausa curiosa</span><h2>¿Sabías que…?</h2><div class="fact-card"><span>✦</span><strong id="factText">El juego cotidiano también puede ser una forma de conexión.</strong><button id="factBtn">OTRO DATO →</button></div></div>
+</section>
+
+<section class="author" id="autora">
+  <div class="author-photo"><span>DB</span><i>✦</i></div>
+  <div><span class="eyebrow">La persona detrás de la idea</span><h2>Dalgis Bustos</h2><p>“A tu ritmo, contigo” nace desde una mirada humana: acompañar no significa hacerlo todo perfecto. Significa encontrar momentos para estar, jugar y disfrutar juntos.</p><a class="small-link" href="#contacto">Quiero conocer más sobre el proyecto →</a></div>
+</section>
+
+<section class="contact" id="contacto">
+  <div><span class="eyebrow">¿Tienes una pregunta?</span><h2>Hablemos.</h2><p>Si quieres saber más antes de comprar, puedes escribir directamente al comercio.</p></div>
+  <div class="contact-buttons">
+    <!-- Reemplazar los # por teléfono/Instagram reales -->
+    <a class="contact-btn whatsapp-btn" href="#" onclick="return placeholderContact('WhatsApp');">💬 <span><small>Escríbenos por</small>WhatsApp</span><b>→</b></a>
+    <a class="contact-btn instagram-btn" href="#" onclick="return placeholderContact('Instagram');">◎ <span><small>Síguenos / escríbenos en</small>Instagram</span><b>→</b></a>
+    <a class="contact-btn phone-btn" href="#" onclick="return placeholderContact('Teléfono');">☎ <span><small>También puedes llamar</small>Teléfono</span><b>→</b></a>
+  </div>
+</section>
+
+<section class="buy" id="comprar">
+  <div class="buy-copy"><span class="eyebrow">Tu momento empieza aquí</span><h2>Descubre<br><em>A tu ritmo, contigo.</em></h2><p>Una experiencia para descubrir, jugar y acompañar.</p></div>
+  <div class="buy-action"><div class="price-note">EBOOK DIGITAL</div><a class="btn buy-btn" href="#" onclick="return placeholderContact('Compra');">QUIERO EL EBOOK <span>↗</span></a><small>Acceso digital · Compra segura</small></div>
+</section>
+</main>
+
+<footer><div class="footer-logo">✦ A TU RITMO, <b>CONTIGO</b></div><div><a href="#contacto">Contacto</a><a href="#comprar">Comprar</a><a href="#autora">Dalgis</a></div><small>© 2026 · Todos los derechos reservados</small></footer>
+
+<div class="mobile-nav"><a href="#descubre">Explorar</a><a href="#mamas">💬 Mamás</a><a class="mobile-buy" href="#comprar">QUIERO EL EBOOK</a></div>
+
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><span class="eyebrow">Descubre</span><h2 id="modalTitle"></h2><p id="modalText"></p><a class="btn primary" href="#comprar" id="modalCta">Quiero verlo</a></div></div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,19 +1,12 @@
-# A tu ritmo, contigo
+# A tu ritmo, contigo — V2
 
-Landing page interactiva, mobile-first y lista para publicar en GitHub Pages.
+Versión interactiva de la landing page.
 
-## Archivos
-- `index.html` — estructura de la página.
-- `style.css` — diseño responsive y animaciones.
-- `script.js` — tarjetas, pestañas y datos curiosos.
-- `assets/favicon.svg` — favicon provisional.
+### Antes de publicar
+- Cambiar los botones de compra por el checkout real.
+- Cambiar WhatsApp, Instagram y Teléfono por los datos oficiales.
+- Reemplazar el mockup y avatar tipográficos por las imágenes/logos oficiales cuando sean entregados.
+- No modificar ni deformar los logos oficiales.
 
-## Antes de publicar
-1. Reemplaza el enlace `href="#"` del botón de compra por el enlace real de checkout.
-2. Sustituye el mockup provisional del eBook por la portada/imagenes oficiales cuando estén disponibles.
-3. Sustituye el favicon provisional y el texto de marca por el logo oficial si corresponde.
-4. Si se entregan imágenes oficiales, colócalas dentro de `assets/` y actualiza las referencias en `index.html`.
-
-## GitHub Pages
-Sube todos los archivos conservando la estructura de carpetas. En GitHub:
-Settings → Pages → Deploy from a branch → selecciona `main` y `/ (root)`.
+### Publicar
+Sube `index.html`, `style.css`, `script.js` y la carpeta `assets` al repositorio. GitHub Pages puede servir `index.html` desde la raíz.
