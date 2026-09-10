@@ -1,24 +1,19 @@
-# A tu ritmo, contigo — versión COLOR + DINÁMICA
+# A tu ritmo, contigo
 
-Esta versión abandona el aspecto editorial/PDF y usa una estética de experiencia infantil, alegre y comercial.
+Landing page interactiva, mobile-first y lista para publicar en GitHub Pages.
 
-Incluye:
-- colores fuertes y bloques visuales;
-- escena animada de mamá/bebé;
-- stickers y juguetes;
-- tarjetas interactivas;
-- contador/beneficios;
-- presentación visual del eBook;
-- CTA de compra a Hotmart;
-- responsive para celular.
+## Archivos
+- `index.html` — estructura de la página.
+- `style.css` — diseño responsive y animaciones.
+- `script.js` — tarjetas, pestañas y datos curiosos.
+- `assets/favicon.svg` — favicon provisional.
 
-No muestra las actividades completas del producto.
+## Antes de publicar
+1. Reemplaza el enlace `href="#"` del botón de compra por el enlace real de checkout.
+2. Sustituye el mockup provisional del eBook por la portada/imagenes oficiales cuando estén disponibles.
+3. Sustituye el favicon provisional y el texto de marca por el logo oficial si corresponde.
+4. Si se entregan imágenes oficiales, colócalas dentro de `assets/` y actualiza las referencias en `index.html`.
 
-Compra:
-https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F
-
-Instagram:
-https://www.instagram.com/aturitmocontigo_?stkn=aGFtYTVjd3N6am5p
-
-Teléfono:
-310 751 8812
+## GitHub Pages
+Sube todos los archivos conservando la estructura de carpetas. En GitHub:
+Settings → Pages → Deploy from a branch → selecciona `main` y `/ (root)`.

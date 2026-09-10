@@ -1,140 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A tu ritmo, contigo 💛</title>
-<meta name="description" content="A tu ritmo, contigo — juego, vínculo y acompañamiento para disfrutar cada etapa.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A tu ritmo, contigo — una experiencia para descubrir, jugar y acompañar.">
+  <meta name="theme-color" content="#102A43">
+  <title>A tu ritmo, contigo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="top-progress"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="A tu ritmo, contigo">
+      <span class="brand-mark">✦</span>
+      <span>A TU RITMO,<br><b>CONTIGO</b></span>
+    </a>
+    <a class="header-cta" href="#comprar">Quiero el eBook</a>
+  </header>
 
-<header>
-  <a class="brand" href="#inicio"><span class="brand-heart">♥</span><span>A tu ritmo,<b>contigo</b></span></a>
-  <nav><a href="#magia">La magia</a><a href="#eBook">El eBook</a><a href="#autora">Dalgis</a></nav>
-  <a class="header-btn" href="https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F" target="_blank" rel="noopener">Lo quiero 💛</a>
-</header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">22 actividades para descubrir juntos</span>
+        <h1>No se trata de estimular más.<br><em>Se trata de acompañar mejor.</em></h1>
+        <p>Una guía digital pensada para convertir momentos cotidianos en oportunidades de juego, conexión y descubrimiento.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#comprar">Quiero el eBook <span>→</span></a>
+          <a class="button button-ghost" href="#explorar">Explorar <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa">
+        <div class="sun"></div>
+        <div class="cloud cloud-one"></div>
+        <div class="cloud cloud-two"></div>
+        <div class="book">
+          <div class="book-cover">
+            <small>A TU RITMO,</small>
+            <strong>CONTIGO</strong>
+            <span>Una experiencia para descubrir,<br>jugar y acompañar.</span>
+            <i>✦</i>
+          </div>
+        </div>
+        <div class="dino dino-one">🦕</div>
+        <div class="dino dino-two">🦖</div>
+        <div class="toy">✹</div>
+      </div>
+    </section>
 
-<main id="inicio">
+    <section class="explore" id="explorar">
+      <div class="section-heading">
+        <span class="eyebrow">Explora</span>
+        <h2>Hay mucho por descubrir.</h2>
+        <p>En lugar de llenar la pantalla de texto, toca, desliza y descubre.</p>
+      </div>
 
-<section class="hero">
-  <div class="hero-bubble hb1">✦</div><div class="hero-bubble hb2">♥</div><div class="hero-bubble hb3">●</div>
-  <div class="hero-copy">
-    <div class="mini-pill">🌈 PARA MAMÁS, PAPÁS Y CUIDADORES</div>
-    <h1>Jugar.<br><span>Acompañar.</span><br>Crecer juntos.</h1>
-    <p>Una guía creada para convertir pequeños momentos de la vida cotidiana en experiencias de conexión con tu bebé.</p>
-    <div class="hero-actions">
-      <a class="big-btn" href="https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F" target="_blank" rel="noopener">QUIERO DESCUBRIRLO <b>→</b></a>
-      <a class="scroll-btn" href="#magia">Explorar ↓</a>
-    </div>
-    <div class="hero-proof"><span>22</span> actividades · <span>♡</span> sin presión · <span>✦</span> desde casa</div>
+      <div class="horizontal-cards">
+        <article class="feature-card active" data-title="Acompañar" data-text="Ideas sencillas para estar presente y convertir el juego cotidiano en un momento de conexión.">
+          <span>01</span><b>❤️</b><h3>Acompañar</h3><p>Más presencia, menos presión.</p>
+        </article>
+        <article class="feature-card" data-title="Jugar" data-text="Actividades fáciles de preparar que invitan a explorar, tocar, mirar, escuchar y disfrutar juntos.">
+          <span>02</span><b>🎲</b><h3>Jugar</h3><p>Aprender también puede sentirse como juego.</p>
+        </article>
+        <article class="feature-card" data-title="Descubrir" data-text="Propuestas organizadas para que puedas encontrar ideas adecuadas para cada etapa.">
+          <span>03</span><b>🔎</b><h3>Descubrir</h3><p>Pequeños momentos, grandes descubrimientos.</p>
+        </article>
+        <article class="feature-card" data-title="Conectar" data-text="Porque el objetivo no es hacer más cosas: es disfrutar mejor de las que ya haces.">
+          <span>04</span><b>✨</b><h3>Conectar</h3><p>El vínculo también es parte del aprendizaje.</p>
+        </article>
+      </div>
+
+      <div class="reveal-box" id="revealBox">
+        <strong>Acompañar</strong>
+        <p>Ideas sencillas para estar presente y convertir el juego cotidiano en un momento de conexión.</p>
+      </div>
+    </section>
+
+    <section class="discover">
+      <div class="section-heading">
+        <span class="eyebrow">Dentro del eBook</span>
+        <h2>Elige qué quieres conocer.</h2>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="actividades">22 actividades</button>
+        <button class="tab" data-tab="edades">Por edades</button>
+        <button class="tab" data-tab="materiales">Materiales</button>
+        <button class="tab" data-tab="objetivos">Objetivos</button>
+        <button class="tab" data-tab="notas">Notas para mamá</button>
+      </div>
+      <div class="tab-panel" id="tabPanel">
+        <span class="panel-icon">🎈</span>
+        <h3>22 actividades</h3>
+        <p>Una selección de propuestas para explorar el juego y acompañar diferentes momentos del desarrollo.</p>
+      </div>
+    </section>
+
+    <section class="curious">
+      <div class="curious-dino">🦖</div>
+      <div>
+        <span class="eyebrow">¿Sabías que…?</span>
+        <h2 id="fact">El juego no necesita ser complicado para ser significativo.</h2>
+        <button class="button button-light" id="nextFact">Ver otro dato →</button>
+      </div>
+    </section>
+
+    <section class="peek">
+      <div class="peek-copy">
+        <span class="eyebrow">Una pequeña mirada</span>
+        <h2>Lo suficiente para querer descubrir el resto.</h2>
+        <p>El contenido completo vive dentro del eBook. Aquí solo abrimos una pequeña ventana.</p>
+        <a class="button button-primary" href="#comprar">Ver el eBook</a>
+      </div>
+      <div class="peek-stack">
+        <div class="page page-back">JUGAR<br><small>también es conectar</small></div>
+        <div class="page page-front">
+          <small>ACTIVIDAD</small>
+          <strong>Explorar<br>juntos</strong>
+          <span>Una propuesta sencilla<br>para compartir.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="author">
+      <div class="author-avatar">DB</div>
+      <div>
+        <span class="eyebrow">Detrás de la idea</span>
+        <h2>Dalgis Bustos</h2>
+        <p>“A tu ritmo, contigo” nace desde una mirada cercana: acompañar a un hijo no significa hacerlo todo perfecto, sino encontrar maneras de estar, jugar y disfrutar juntos.</p>
+      </div>
+    </section>
+
+    <section class="purchase" id="comprar">
+      <div>
+        <span class="eyebrow">Tu siguiente momento juntos</span>
+        <h2>Descubre <em>A tu ritmo, contigo.</em></h2>
+        <p>Elige comenzar una experiencia pensada para acompañar con más conexión y menos presión.</p>
+      </div>
+      <!-- Reemplazar # por el enlace real de compra -->
+      <a class="button button-buy" href="#" onclick="alert('Aquí irá el enlace real de compra.'); return false;">QUIERO EL EBOOK <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">A TU RITMO, <b>CONTIGO</b></div>
+    <span>Creado por Dalgis Bustos</span>
+    <span>© 2026</span>
+  </footer>
+
+  <div class="mobile-buy">
+    <span>A tu ritmo, contigo</span>
+    <a href="#comprar">QUIERO EL EBOOK</a>
   </div>
 
-  <div class="hero-art">
-    <div class="rainbow"><i></i><i></i><i></i><i></i></div>
-    <div class="sun-face">☀</div>
-    <div class="cloud cloud1"></div><div class="cloud cloud2"></div>
-    <div class="character">
-      <div class="adult-hair"></div><div class="adult-face"></div><div class="adult-body"></div>
-      <div class="baby-face"></div><div class="baby-body"></div>
-      <div class="eye e1"></div><div class="eye e2"></div>
-      <div class="smile">⌣</div>
-    </div>
-    <div class="toy t-ball">●</div><div class="toy t-block">■</div><div class="toy t-star">★</div>
-    <div class="sticker sticker1">¡A jugar!</div>
-    <div class="sticker sticker2">♡ contigo</div>
-  </div>
-</section>
-
-<section class="color-strip"><div>JUGAR</div><div>OBSERVAR</div><div>ABRAZAR</div><div>DESCUBRIR</div><div>DISFRUTAR</div></section>
-
-<section class="magic" id="magia">
-  <div class="section-intro">
-    <div class="mini-pill">✨ UNA EXPERIENCIA, NO UNA LISTA DE TAREAS</div>
-    <h2>¿Qué pasa cuando<br><span>jugamos juntos?</span></h2>
-    <p>Toca cada círculo. Hay una pequeña sorpresa esperándote.</p>
-  </div>
-  <div class="magic-wheel">
-    <button class="magic-card mc1" data-text="Una mirada, una sonrisa, una voz conocida. La conexión empieza con cosas muy pequeñas."><span>♥</span><b>Conectar</b></button>
-    <button class="magic-card mc2" data-text="El juego aparece en cualquier lugar: una canción, una textura, un objeto seguro, una historia."><span>🎈</span><b>Jugar</b></button>
-    <button class="magic-card mc3" data-text="No necesitas compararlo. Observa sus señales, sus intereses y su manera única de descubrir."><span>👀</span><b>Observar</b></button>
-    <div class="magic-center"><strong>Tu<br>presencia</strong><span>es parte<br>de la magia</span></div>
-    <button class="magic-card mc4" data-text="No hay que aprovechar cada minuto. También está bien parar, abrazar y simplemente estar juntos."><span>🌼</span><b>Disfrutar</b></button>
-  </div>
-  <div class="magic-message" id="magicMessage">Toca una opción 👆</div>
-</section>
-
-<section class="numbers">
-  <div class="number-main"><strong>22</strong><span>momentos para<br>compartir</span></div>
-  <div><b>POR ETAPAS</b><span>Una propuesta organizada para acompañar diferentes momentos del crecimiento.</span></div>
-  <div><b>DESDE CASA</b><span>Materiales sencillos y propuestas pensadas para la vida real.</span></div>
-  <div><b>CON CALMA</b><span>Una mirada que respeta el ritmo de cada bebé.</span></div>
-</section>
-
-<section class="ebook" id="eBook">
-  <div class="ebook-copy">
-    <div class="mini-pill">📖 DENTRO DEL eBOOK</div>
-    <h2>Lo que necesitas<br>para decir:<br><span>“Hoy jugamos.”</span></h2>
-    <p>No vamos a mostrarte el contenido completo. Queremos que descubras la experiencia cuando sea tuya.</p>
-    <div class="benefits">
-      <div><i>✓</i><span><b>22 actividades</b><small>organizadas por edades</small></span></div>
-      <div><i>✓</i><span><b>Materiales sencillos</b><small>ideas que caben en la vida cotidiana</small></span></div>
-      <div><i>✓</i><span><b>Objetivos claros</b><small>para entender qué estás acompañando</small></span></div>
-      <div><i>✓</i><span><b>Notas para cuidadores</b><small>una mirada cercana para cada momento</small></span></div>
-    </div>
-    <a class="big-btn dark" href="https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F" target="_blank" rel="noopener">VER EL eBOOK EN HOTMART <b>↗</b></a>
-  </div>
-  <div class="ebook-showcase">
-    <div class="blob pink"></div><div class="blob yellow"></div>
-    <div class="book-shadow"></div>
-    <div class="book-cover">
-      <div class="cover-top">A TU RITMO,</div>
-      <strong>CONTIGO</strong>
-      <div class="cover-art"><span>☀</span><div class="cover-adult"></div><div class="cover-baby"></div><b>♥</b></div>
-      <small>Jugar · acompañar · disfrutar</small>
-    </div>
-    <div class="book-sticker">22<br><small>actividades</small></div>
-    <div class="book-note">Hecho con<br><b>mucho amor</b> ♡</div>
-  </div>
-</section>
-
-<section class="feel">
-  <div class="feel-word">SIN<br>PRISA.</div>
-  <div class="feel-main"><span>💛</span><h2>Tu bebé no necesita<br>un adulto perfecto.</h2><p>Necesita a alguien que esté dispuesto a mirar, escuchar, jugar y acompañar.</p></div>
-  <div class="feel-word right">A SU<br>RITMO.</div>
-</section>
-
-<section class="author" id="autora">
-  <div class="author-art"><div class="flower">✿</div><div class="author-circle"><b>D</b></div><span class="little-heart">♥</span></div>
-  <div class="author-copy">
-    <div class="mini-pill">🌷 DETRÁS DE A TU RITMO, CONTIGO</div>
-    <h2>Una mamá.<br>Una pregunta.<br><span>Una idea.</span></h2>
-    <p>Dalgis Bustos creó este material desde su experiencia como mamá y desde el deseo de acompañar mejor a su hijo, Joaquín.</p>
-    <p>Una propuesta nacida desde casa, desde la vida real y desde el amor sencillo.</p>
-    <strong>— Dalgis Bustos</strong>
-  </div>
-</section>
-
-<section class="final-cta">
-  <div class="confetti-big">✦　♥　✧　●　♥　✦</div>
-  <div class="mini-pill">💛 TU MOMENTO EMPIEZA AQUÍ</div>
-  <h2>Haz espacio para<br><span>jugar juntos.</span></h2>
-  <p>Descubre A tu ritmo, contigo y encuentra nuevas formas de disfrutar cada etapa.</p>
-  <a class="big-btn white" href="https://hotmart.com/es/marketplace/productos/a-tu-ritmo-contigo/H106909473F" target="_blank" rel="noopener">QUIERO MI eBOOK <b>→</b></a>
-  <small>Compra y acceso a través de Hotmart</small>
-</section>
-</main>
-
-<footer>
-  <div class="footer-brand">A tu ritmo, <b>contigo</b> ♡</div>
-  <a href="https://www.instagram.com/aturitmocontigo_?stkn=aGFtYTVjd3N6am5p" target="_blank" rel="noopener">Instagram @aturitmocontigo_ ↗</a>
-  <a href="tel:+573107518812">310 751 8812</a>
-  <span>© 2026 Dalgis Bustos</span>
-</footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
