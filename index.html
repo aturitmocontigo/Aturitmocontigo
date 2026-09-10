@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b5cab">
+  <meta name="description" content="A tu ritmo, contigo. Apoya esta campaña de donación.">
+  <title>Donar | A tu ritmo, contigo</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-30QGR4ZMD5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-30QGR4ZMD5');
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">A tu ritmo, contigo</div>
+    <a class="help-link" href="tel:+573107518812" aria-label="Llamar al 310 751 8812">¿Necesitas ayuda?</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <span class="eyebrow">Tu apoyo puede hacer la diferencia</span>
+        <h1 id="titulo">Dona a tu ritmo.<br><span>Haz que cuente.</span></h1>
+        <p>Elige el aporte que quieras realizar. Es rápido, sencillo y puedes cambiar el valor cuando quieras.</p>
+      </div>
+
+      <div class="campaign-card">
+        <!-- Reemplaza campaña.jpg por la imagen de campaña original, sin modificarla. -->
+        <img src="campaña.jpg" alt="Imagen de la campaña de donación" class="campaign-image">
+      </div>
+    </section>
+
+    <section class="donation-section" aria-labelledby="donar-titulo">
+      <div class="section-heading">
+        <span class="eyebrow">Elige tu aporte</span>
+        <h2 id="donar-titulo">¿Cuánto quieres donar?</h2>
+        <p>Selecciona un valor para continuar.</p>
+      </div>
+
+      <div class="amount-grid" role="group" aria-label="Valores de donación">
+        <button class="amount-btn" data-amount="30000">$30.000</button>
+        <button class="amount-btn" data-amount="50000">$50.000</button>
+        <button class="amount-btn" data-amount="100000">$100.000</button>
+        <button class="amount-btn" data-amount="200000">$200.000</button>
+        <button class="amount-btn featured" data-amount="500000">$500.000</button>
+      </div>
+
+      <div class="custom-card">
+        <label for="customAmount">¿Quieres donar otro valor?</label>
+        <div class="custom-row">
+          <div class="money-input">
+            <span>$</span>
+            <input id="customAmount" type="text" inputmode="numeric" autocomplete="off"
+                   placeholder="Escribe el valor" aria-describedby="amountHelp">
+          </div>
+          <button id="customContinue" class="continue-btn">Continuar</button>
+        </div>
+        <small id="amountHelp">Ingresa un valor en pesos colombianos.</small>
+        <p id="amountError" class="error" role="alert"></p>
+      </div>
+
+      <div class="trust">
+        <div class="trust-item"><span>✓</span><div><strong>Proceso sencillo</strong><small>Te llevamos al canal de donación.</small></div></div>
+        <div class="trust-item"><span>✓</span><div><strong>Sin ventanas innecesarias</strong><small>Todo claro y directo.</small></div></div>
+        <div class="trust-item"><span>✓</span><div><strong>Tu decisión, a tu ritmo</strong><small>Elige el aporte que prefieras.</small></div></div>
+      </div>
+    </section>
+
+    <section class="contact-card">
+      <div>
+        <span class="eyebrow">¿Tienes preguntas?</span>
+        <h2>Estamos para ayudarte</h2>
+        <p>Si necesitas información antes de donar, comunícate con nosotros.</p>
+      </div>
+      <a class="phone-btn" href="tel:+573107518812">
+        <span class="phone-icon">☎</span>
+        <span><small>Dudas y orientación</small><strong>310 751 8812</strong></span>
+      </a>
+    </section>
+
+    <section class="social-card">
+      <div>
+        <span class="eyebrow">Síguenos</span>
+        <h2>Conoce más de nuestro trabajo</h2>
+        <p>Encuéntranos en Instagram y acompáñanos en esta iniciativa.</p>
+      </div>
+      <a id="instagramLink" class="instagram-btn" href="https://www.instagram.com/aturitmocontigo_?stkn=aGFtYTVjd3N6am5p" target="_blank" rel="noopener noreferrer">
+        Instagram
+        <span>↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 A tu ritmo, contigo</p>
+    <p>Al continuar, aceptas nuestra información de privacidad y tratamiento de datos.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
